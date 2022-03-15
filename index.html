@@ -5,54 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!--<script language="JavaScript">
+        var password;
+        var pass1="yourpassword";
+        password=prompt('Enter Password To View Page',' ');
+        if (password==pass1)
+        alert('Correct password, click Ok to enter.');
+        else
+        {
+        window.location="http://www.msn.com";
+        }
+    </script>-->
+    <title>Test Site Verif</title>
 </head>
 <body>
-    <section class="info">
-        <img src="https://codetheweb.blog/assets/img/icon2.png">
-        <h1>Learn HTML &mdash; <a href="https://codetheweb.blog/" target="_blank">Code The Web</a></h1>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html">
+                <img class="logo" src="images/logo-aigle.png" alt="">
+            </a>
+            <span class="title-nav"><strong>V</strong>erif <strong>S</strong>apeurs <strong>P</strong>ompiers <strong>N</strong>ice</span>
+        </div>
+    </nav>
+    <section id="portfolio">
+        
+        <div class="container portfolio__container">
+            <article class="portfolio__item">
+                <div class="portfolio__item-image">
+                    <a href="hancy.html"><img src="images/portfolio1.jpg" alt=""></a>
+                </div>
+                <h3>CIS Hancy</h3>
+
+            </article>
+            <article class="portfolio__item">
+                <div class="portfolio__item-image">
+                    <a href="index.html"><img src="images/portfolio2.jpg" alt=""></a>
+                </div>
+                <h3>CIS Bon Voyage</h3>
+                <!--<div class="portfolio__item-cta">
+                    <a class="btn" href="#">Test</a>
+                    <a class="btn btn-primary" href="#" target="_blank">Demo</a>
+                </div>-->
+            </article>   
+            <article class="portfolio__item">
+                <div class="portfolio__item-image">
+                    <a href="formulaire.html"><img src="images/portfolio3.jpg" alt=""></a>
+                </div>
+                <h3>CIS Magnan</h3>
+                <!--<div class="portfolio__item-cta">
+                    <a class="btn" href="#">Test</a>
+                    <a class="btn btn-primary" href="#" target="_blank">Demo</a>
+                </div>-->
+            </article>   
+            <article class="portfolio__item">
+                <div class="portfolio__item-image">
+                    <img src="images/portfolio4.jpg" alt="">
+                </div>
+                <h3>CIS Fodére</h3>
+                <!--<div class="portfolio__item-cta">
+                    <a class="btn" href="#">Test</a>
+                    <a class="btn btn-primary" href="#" target="_blank">Demo</a>
+                </div>-->
+            </article>   
+            <article class="portfolio__item">
+                <div class="portfolio__item-image">
+                    <img src="images/portfolio5.png" alt="">
+                </div>
+                <h3>CIS Saint Isidore</h3>
+                <!--<div class="portfolio__item-cta">
+                    <a class="btn" href="#">Test</a>
+                    <a class="btn btn-primary" href="#" target="_blank">Demo</a>
+                </div>-->
+            </article>   
+            <article class="portfolio__item">
+                <div class="portfolio__item-image">
+                    <img src="images/portfolio6.jpg" alt="">
+                </div>
+                <h3>CS Nice Nord</h3>
+                <!--<div class="portfolio__item-cta">
+                    <a class="btn" href="#">Test</a>
+                    <a class="btn btn-primary" href="#" target="_blank">Demo</a>
+                </div>-->
+            </article>              
+        </div>
     </section>
-    <section class="cards-wrapper">
-        <div class="card-grid-space">
-          <div class="num">01</div>
-          <a class="card" href="https://codetheweb.blog/2017/10/06/html-syntax/" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
-            <div>
-              <h1>HTML Syntax</h1>
-              <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
-              <div class="date">6 Oct 2017</div>
-              <div class="tags">
-                <div class="tag">HTML</div>
-              </div>
+
+    <!--<section id="footer">
+        <footer>
+            <a class="footer__logo" href="#"></a>
+
+            <ul class="permalinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+
+            <div class="footer__socials">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
-          </a>
-        </div>
-        <div class="card-grid-space">
-          <div class="num">02</div>
-          <a class="card" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
-            <div>
-              <h1>Basic types of HTML tags</h1>
-              <p>Learn about some of the most common HTML tags…</p>
-              <div class="date">9 Oct 2017</div>
-              <div class="tags">
-                <div class="tag">HTML</div>
-              </div>
+
+            <div class="footer__copyright">
+                <small>&copy; XR Web. All right reserved.</small>
             </div>
-          </a>
-        </div>
-        <div class="card-grid-space">
-          <div class="num">03</div>
-          <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
-            <div>
-              <h1>Links, images and about file paths</h1>
-              <p>Learn how to use links and images along with file paths…</p>
-              <div class="date">14 Oct 2017</div>
-              <div class="tags">
-                <div class="tag">HTML</div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
-    </section>
+        </footer>
+    </section>-->
+    
 </body>
 </html>
