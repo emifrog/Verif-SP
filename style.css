@@ -61,7 +61,7 @@ h1{
 }
 
 section{
-    margin-top: 4rem;
+    margin-top: 3rem;
     height: 100vh;
 }
 
@@ -119,7 +119,7 @@ img{
 
 /* ======= NavBar =======*/
 nav{
-    background: transparent;
+    background: var(--color-bg-variant);;
     width: 100vw;
     height: 6rem;
     padding: 20px 0;
@@ -143,9 +143,16 @@ nav{
 }
 
 .logo{
-    margin-top: 50px;
     flex: 1;
-    width: 100px;
+    width: 60px;
+}
+
+.title-nav{
+    flex: 1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--color-white);
 }
 
 nav button{
@@ -210,57 +217,20 @@ nav button{
     margin-bottom: 1rem;
 }
 
-.footer {
-    background: var(--color-primary);
-    padding: 3rem 0;
+footer {
+    background: var(--color-bg-variant);
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    justify-content: space-between;
+}
+
+
+footer .footer__copyright{
     text-align: center;
-    font-size: 0.9rem;
-    margin-top: 7rem;
-}
-
-footer a{
-    color: var(--color-bg);
-}
-
-.footer__logo{
-    font-size: 2rem;
+    font-size: 22px;
     font-weight: 500;
-    margin-bottom: 2rem;
-    display: block;
-}
-
-.permalinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 auto 3rem;
-}
-
-.footer__socials{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 4rem;
-}
-
-.footer__socials a{
-    background: var(--color-bg);
-    color: var(--color-white);
-    padding: 0.8rem;
-    border-radius: 0.7rem;
-    display: flex;
-    border: 1px solid transparent;
-}
-
-.footer__socials a:hover{
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
-}
-
-.footer__copyright{
-    margin-bottom: 4rem;
     color: var(--color-bg);
 }
 
@@ -292,6 +262,14 @@ footer a{
     }
     .portfolio__container {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 2rem;
+    }
+    footer{
+        
+    }
+    footer .footer__copyright{
+        text-align: center;
+        font-size: 18px;
+
     }
 }
